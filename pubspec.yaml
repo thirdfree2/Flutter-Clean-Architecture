@@ -42,7 +42,9 @@ dependencies:
   floor: ^1.0.0
   flutter_hooks: ^0.20.5
   cached_network_image: ^3.3.1
-  build_runner: ^2.4.8
+  dio: ^5.4.1
+  http: ^1.2.0
+  retrofit: ^4.1.0
 
 dev_dependencies:
   flutter_test:
@@ -54,7 +56,11 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
-
+  
+  floor_generator: ^1.4.2
+  retrofit_generator: ^8.1.0
+  analyzer: ^5.13.0
+  build_runner: ^2.4.8
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -66,7 +72,7 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-  
+
   fonts:
     - family: TitilliumWeb
       fonts:
